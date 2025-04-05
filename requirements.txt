@@ -2,7 +2,7 @@ streamlit
 seaborn
 streamlit-pandas-profiling
 pycaret
-scikit-learn==1.0.2  # Critical fix
+scikit-learn
 numpy
 pandas
 scipy
