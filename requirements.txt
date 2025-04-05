@@ -1,13 +1,10 @@
-streamlit
-pandas
-matplotlib
-numpy
-ydata-profiling
-scikit-learn
-plotly
-seaborn
-streamlit-pandas-profiling
-pycaret
-fastapi
-uvicorn
+streamlit==1.44.1
+pycaret==3.3.2
+scikit-learn==1.0.2  # Critical fix
+numpy<2.0.0,>=1.23.0
+pandas<3.0.0,>=1.4.0
+scipy<=1.11.4
+fastapi==0.115.12
+uvicorn==0.34.0
 pydantic<2.0.0
+ydata-profiling
